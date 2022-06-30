@@ -5,8 +5,8 @@
     include_once './includes/_header.php';
 
     $id = $_GET['id'];
-    $tipo = $_GET['tipo'];
-    echo $id;
+    @$tipo = $_GET['tipo'];
+
 ?>
 
     <div class="container">
